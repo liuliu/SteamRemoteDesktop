@@ -9,19 +9,17 @@
 /* Begin PBXBuildFile section */
 		5A501FA22495AA7500D00061 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A501FA12495AA7500D00061 /* AppDelegate.m */; };
 		5A501FA42495AA7600D00061 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A501FA32495AA7600D00061 /* Assets.xcassets */; };
-		5A501FA72495AA7600D00061 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A501FA52495AA7600D00061 /* MainMenu.xib */; };
 		5A501FAA2495AA7600D00061 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A501FA92495AA7600D00061 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5A501F9D2495AA7500D00061 /* TransparentWindow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransparentWindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A501F9D2495AA7500D00061 /* SteamRemoteDesktop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SteamRemoteDesktop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A501FA02495AA7500D00061 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5A501FA12495AA7500D00061 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5A501FA32495AA7600D00061 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5A501FA62495AA7600D00061 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		5A501FA82495AA7600D00061 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A501FA92495AA7600D00061 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5A501FAB2495AA7600D00061 /* TransparentWindow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TransparentWindow.entitlements; sourceTree = "<group>"; };
+		5A501FAB2495AA7600D00061 /* SteamRemoteDesktop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SteamRemoteDesktop.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +36,7 @@
 		5A501F942495AA7500D00061 = {
 			isa = PBXGroup;
 			children = (
-				5A501F9F2495AA7500D00061 /* TransparentWindow */,
+				5A501F9F2495AA7500D00061 /* SteamRemoteDesktop */,
 				5A501F9E2495AA7500D00061 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,31 +44,30 @@
 		5A501F9E2495AA7500D00061 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5A501F9D2495AA7500D00061 /* TransparentWindow.app */,
+				5A501F9D2495AA7500D00061 /* SteamRemoteDesktop.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5A501F9F2495AA7500D00061 /* TransparentWindow */ = {
+		5A501F9F2495AA7500D00061 /* SteamRemoteDesktop */ = {
 			isa = PBXGroup;
 			children = (
 				5A501FA02495AA7500D00061 /* AppDelegate.h */,
 				5A501FA12495AA7500D00061 /* AppDelegate.m */,
 				5A501FA32495AA7600D00061 /* Assets.xcassets */,
-				5A501FA52495AA7600D00061 /* MainMenu.xib */,
 				5A501FA82495AA7600D00061 /* Info.plist */,
 				5A501FA92495AA7600D00061 /* main.m */,
-				5A501FAB2495AA7600D00061 /* TransparentWindow.entitlements */,
+				5A501FAB2495AA7600D00061 /* SteamRemoteDesktop.entitlements */,
 			);
-			path = TransparentWindow;
+			path = SteamRemoteDesktop;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5A501F9C2495AA7500D00061 /* TransparentWindow */ = {
+		5A501F9C2495AA7500D00061 /* SteamRemoteDesktop */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5A501FAE2495AA7600D00061 /* Build configuration list for PBXNativeTarget "TransparentWindow" */;
+			buildConfigurationList = 5A501FAE2495AA7600D00061 /* Build configuration list for PBXNativeTarget "SteamRemoteDesktop" */;
 			buildPhases = (
 				5A501F992495AA7500D00061 /* Sources */,
 				5A501F9A2495AA7500D00061 /* Frameworks */,
@@ -80,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = TransparentWindow;
-			productName = TransparentWindow;
-			productReference = 5A501F9D2495AA7500D00061 /* TransparentWindow.app */;
+			name = SteamRemoteDesktop;
+			productName = SteamRemoteDesktop;
+			productReference = 5A501F9D2495AA7500D00061 /* SteamRemoteDesktop.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +96,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5A501F982495AA7500D00061 /* Build configuration list for PBXProject "TransparentWindow" */;
+			buildConfigurationList = 5A501F982495AA7500D00061 /* Build configuration list for PBXProject "SteamRemoteDesktop" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +109,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5A501F9C2495AA7500D00061 /* TransparentWindow */,
+				5A501F9C2495AA7500D00061 /* SteamRemoteDesktop */,
 			);
 		};
 /* End PBXProject section */
@@ -123,7 +120,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A501FA42495AA7600D00061 /* Assets.xcassets in Resources */,
-				5A501FA72495AA7600D00061 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,17 +136,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		5A501FA52495AA7600D00061 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5A501FA62495AA7600D00061 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5A501FAC2495AA7600D00061 /* Debug */ = {
@@ -266,17 +251,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = TransparentWindow/TransparentWindow.entitlements;
+				CODE_SIGN_ENTITLEMENTS = SteamRemoteDesktop/SteamRemoteDesktop.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 6HP3U6Z7P6;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = TransparentWindow/Info.plist;
+				INFOPLIST_FILE = SteamRemoteDesktop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = liuliu.TransparentWindow;
+				PRODUCT_BUNDLE_IDENTIFIER = liuliu.SteamRemoteDesktop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -285,17 +270,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = TransparentWindow/TransparentWindow.entitlements;
+				CODE_SIGN_ENTITLEMENTS = SteamRemoteDesktop/SteamRemoteDesktop.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 6HP3U6Z7P6;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = TransparentWindow/Info.plist;
+				INFOPLIST_FILE = SteamRemoteDesktop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = liuliu.TransparentWindow;
+				PRODUCT_BUNDLE_IDENTIFIER = liuliu.SteamRemoteDesktop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -303,7 +288,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5A501F982495AA7500D00061 /* Build configuration list for PBXProject "TransparentWindow" */ = {
+		5A501F982495AA7500D00061 /* Build configuration list for PBXProject "SteamRemoteDesktop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5A501FAC2495AA7600D00061 /* Debug */,
@@ -312,7 +297,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5A501FAE2495AA7600D00061 /* Build configuration list for PBXNativeTarget "TransparentWindow" */ = {
+		5A501FAE2495AA7600D00061 /* Build configuration list for PBXNativeTarget "SteamRemoteDesktop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5A501FAF2495AA7600D00061 /* Debug */,
